@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(function (req, res, next) {
-    res.send('Not found!!');
+    res.send('Not found!!!');
 });
 
 app.listen(port, () => {
